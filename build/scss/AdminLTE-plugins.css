@@ -1,0 +1,57 @@
+/*
+Error: File to import not found or unreadable: ~bootstrap/scss/functions.
+       Load path: D:/phpstudy_pro/WWW/CSE562/build/scss
+        on line 10 of D:\phpstudy_pro\WWW\CSE562\build\scss\AdminLTE-plugins.scss
+
+5:  *   Website: AdminLTE.io <http://adminlte.io>
+6:  *   License: Open source - MIT <http://opensource.org/licenses/MIT>
+7:  *\/
+8: // Bootstrap
+9: // ---------------------------------------------------
+10: @import '~bootstrap/scss/functions';
+11: @import 'bootstrap-variables';
+12: @import '~bootstrap/scss/mixins';
+13: // @import '~bootstrap/scss/bootstrap';
+14: 
+15: // Variables and Mixins
+
+Backtrace:
+D:\phpstudy_pro\WWW\CSE562\build\scss\AdminLTE-plugins.scss:10
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/KoalaSCSStoCSS/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/KoalaSCSStoCSS/bin/sass:22:in `load'
+D:/KoalaSCSStoCSS/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/functions.\A        Load path: D:/phpstudy_pro/WWW/CSE562/build/scss\A         on line 10 of D:\phpstudy_pro\WWW\CSE562\build\scss\AdminLTE-plugins.scss\A \A 5:  *   Website: AdminLTE.io <http://adminlte.io>\A 6:  *   License: Open source - MIT <http://opensource.org/licenses/MIT>\A 7:  */\A 8: // Bootstrap\A 9: // ---------------------------------------------------\A 10: @import '~bootstrap/scss/functions';\A 11: @import 'bootstrap-variables';\A 12: @import '~bootstrap/scss/mixins';\A 13: // @import '~bootstrap/scss/bootstrap';\A 14: \A 15: // Variables and Mixins"; }
