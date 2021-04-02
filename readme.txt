@@ -1,4 +1,4 @@
-An naive implementation of a employee management system using PHP and MySQL, which allows user to add/edit/remove: employee info, department, project and position.
+An naive implementation of an employee management system using PHP and MySQL, which allows user to add/edit/remove: employee info, department, project and position.
 
 database: username: "root"  password: "root"
 
