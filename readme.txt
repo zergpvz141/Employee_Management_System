@@ -1,3 +1,7 @@
+An naive implementation of a employee management system using PHP and MySQL, which allows user to add/edit/remove: employee info, department, project and position.
+
+database: username: "root"  password: "root"
+
 main pages:
   index.php               // login page. User name: Songtao, password: 000000    or other username and password in the login table
   homePage.php             // The welcome page of the system.
@@ -23,7 +27,5 @@ funtional pages:
   checkFunction.php        // store php form validation functions.
   dist/js/tableFunctions.js// store javascript functions.
 
-Important! Do NOT directly open department.php，personInfo.php，projectInfo.php，position.php，addMemberInPosition.php，
-								addMemberInProject.php and addMemberInDepartment.php in browser. 
-			Because these pages uses pass in argument from the previous page.
-			Please start from the login page for complete using experience.
+Important! Do NOT directly open department.php，personInfo.php，projectInfo.php，position.php，addMemberInPosition.php，addMemberInProject.php and addMemberInDepartment.php in browser. Because these pages uses pass in argument from the previous page.
+	Please start from the login page for complete using experience.
